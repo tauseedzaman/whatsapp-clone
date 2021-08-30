@@ -5,15 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Chat</title>
 </head>
 
 <body class="bg-light">
     <div class="container">
         <div class="row">
-            <div class="col-md-7 mx-auto">
-                <div class="bg-success form-inline">
+            <div class="col-md-7 bg-success mx-auto">
+                <div class=" form-inline">
                     <ul class="nav navbar navbar-success bg-success ">
                         <li class="nav-item">
                             <img src="images/default.jpg" style="width: 90px;height:90px;border-radius: 90px;" alt="" />
@@ -21,29 +21,55 @@
                         <li class="nav-item px-1 pb-0 mb-0">
                             <p style="font-size: larger;">Tauseed zaman</p>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a href="chatRoom.html" class="nav-link text-dark text-larg text-bold">back</a>
                         </li>
                         <li class="nav-item">
                             <a href="chatRoom.html" class="nav-link text-dark text-larg text-bold"><b>&equivDD;</b></a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
-            <div class="col-md-7 mx-auto bg-gray py-1 my-1 w-full">
-                <div class="bg-danger">
-                    <span class="shadow rounded border p-1 bg-success">text gies here</span>
+        </div>
+        <div class="row ">
+            <div class="col-md-7 mx-auto bg-white">
+                <div class="     px-3 py-2 vh-100">
+
+                    <!-- has or hr message -->
+                    <p class="shadow   px-3 py-1 w-75  bg-light float-left"
+                        style="border:1px  solid black;border-radius: 0px 20px 20px 30px;">texborder border-4
+                        rounded-pillborder border-4 rounded-pillborder border-4 rounded-pillborder border-4
+                        rounded-pillborder border-4 rounded-pillt giesext giesext giesext gies hergies hergies hergies
+                        hergies hergies hergies hergies here
+                        <span class="badge badge-pill badge-success float-right ">12:00 AM</span>
+                    </p>
+
+                    <!-- my message -->
+                    <p class="shadow   px-3 py-1 w-75 float-right "
+                        style="background-color: lightgreen;border:1px  solid black;border-radius: 20px 0px 30px 20px;">
+                        texborder border-4 rounded-pillborder border-4 rounded-pillborder border-4 rounded-pillborder
+                        border-4 rounded-pillborder border-4 rounded-pillt giesext giesext giesext gies hergies hergies
+                        hergies hergies hergies hergies hergies here
+                        <span class="badge badge-pill text-righ badge-light float-right">12:00 AM</span>
+                    </p>
                 </div>
-                <form class="form-inline fixed-buttom" method="post" action="" enctype="multipart/form-data">
-                    <div class="input-group">
-                        <input class="form-control" type="text" name="message" placeholder="White Message" aria-label="White Message">
+            </div>
+            <div class="col-md-7 mx-auto bg-white py-2" >
+                <form class="form-inline" method="post" action="" enctype="multipart/form-data">
+                    <div class="input-group " style="width: 100%;">
+                        <input class="form-control" type="text" name="message" placeholder="Write Message"
+                            aria-label="Write Message">
                         <div class="input-group-append">
-                            <button type="submit" class="input-group-text">Message</button>
+                            <button type="submit" class="input-group-text">Send</button>
                         </div>
                     </div>
                 </form>
             </div>
-
+        </div>
+        <div class="row">
+            <div class="col-md-7  vw-50">
+                
+            </div>
         </div>
     </div>
 </body>
