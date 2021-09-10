@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Create Account</title>
+</head>
+<body class="bg-dark">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-7 py-4 text-capitalize text-center text-light bg-success mx-auto">
+                <h1 class="text-center">welcome to wathsapp clone :)</h1>
+            </div>
+        </div>
+        <div class="row " id="form_first">
+         <div class="col-md-7 py-3 text-capitalize  text-success bg-light  mx-auto">
+                <h3 class="text-center">Create Account To Containue</h3>
+                <p class="text-dark text-center text-capitalize">We Send Four Digits Code To ******** Number  enter the code to continue</p>
+                <form class="form h-100 pb-5 pt-2" onsubmit="submit_phone_number()">
+                   <div class="row">
+                        <div class="form-group col-3  mx-auto">
+                        <label class="label">Enter Code</label>
+                        <input type="text" name="code" class=" text-lg-center form-control" placeholder="****" id="code">
+                    </div>
+                   </div>
+                    <div class="col mx-auto text-center my-1">
+                        <a href="#">Resend Code</a>
+                    </div>
+
+                     <div class="form-group pb-5 my-3">
+                     <input type="submit" name="submit" value="Next" class="btn-lg btn btn-success btn-block shadow ">
+                     <a href="create_account_setp_one.html" class="btn btn-info my-3"><--Back</a>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function submit_code() {
+            let code = document.querySelector("#code").value;
+        }
+    </script>
+</body>
+</html>

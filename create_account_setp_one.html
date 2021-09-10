@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>Create Account</title>
+</head>
+<body class="bg-dark">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-7 py-4 text-capitalize text-center text-light bg-success mx-auto">
+                <h1 class="text-center">welcome to wathsapp clone :)</h1>
+            </div>
+        </div>
+        <div class="row " id="form_first">
+         <div class="col-md-7 py-5 text-capitalize  text-success bg-light  mx-auto">
+                <h3 class="text-center">Create Account To Containue</h3>
+                <form class="form h-100 pb-5 pt-5" onsubmit="submit_phone_number()">
+                    <div class="form-group">
+                        <label class="label">Phone Number</label>
+                        <input type="text" name="number" class="form-control" placeholder="Enter Your Phone Number" id="phone">
+                    </div>
+                     <div class="form-group pb-5 mt-5 pt-3">
+                     <input type="submit" name="submit" value="Next" class="btn btn-secondary btn-block shadow ">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function submit_phone_number() {
+            let phone_number = document.querySelector("#phone").value;
+        }
+    </script>
+</body>
+</html>
