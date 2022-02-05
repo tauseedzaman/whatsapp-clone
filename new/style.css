@@ -284,10 +284,9 @@ hr {
 }
 .contact_last_chat{
     position: absolute;
-    /* top: 45px; */
     left: 75px;
     bottom: 10px;
-    color: rgb(233, 204, 204);
+    color: rgb(187, 159, 159);
     margin-top: -10px;
 }
 .contact_last_chat_time{
